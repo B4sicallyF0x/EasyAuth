@@ -1,6 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 const dotenv = require('dotenv');
+const port = process.env.PORT || 80;
 
 dotenv.config();
 
